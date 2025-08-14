@@ -1,4 +1,4 @@
-A NestJS application that simulates IoT devices sending X-ray data to a RabbitMQ queue for processing by the PANTOhealth backend system.
+A NestJS application that simulates IoT devices sending X-ray data to a RabbitMQ queue for processing by the https://github.com/m-aalizadeh/iot-management backend system.
 
 Table of Contents
 

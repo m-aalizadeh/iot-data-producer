@@ -1,7 +1,7 @@
-// src/app.module.ts
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-
+import { AppService } from './app.service';
+import { AppController } from './app.controller';
 @Module({
   imports: [
     ConfigModule.forRoot({
@@ -9,5 +9,7 @@ import { ConfigModule } from '@nestjs/config';
       envFilePath: '.env',
     }),
   ],
+  controllers: [AppController],
+  providers: [AppService],
 })
 export class AppModule {}

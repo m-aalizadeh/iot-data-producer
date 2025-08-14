@@ -21,7 +21,7 @@ RabbitMQ server
 
 Installation
 Clone the repository:
-git clone https://github.com/your-username/pantohealth-producer.git
+git clone https://github.com/m-aalizadeh/iot-data-producer.git
 cd iot-data-producer
 Install dependencies:
 npm install

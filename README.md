@@ -8,7 +8,12 @@ Table of Contents
 - Configuration
 - Running the Application
 
-Features - 🚀 RabbitMQ Integration: Connects to RabbitMQ to send X-ray data messages - 📊 Sample Data: Includes sample X-ray data in JSON format - ⏱ Scheduled Publishing: Automatically sends data at regular intervals - 🔧 Configurable: Environment variables for easy configuration
+Features
+
+- 🚀 RabbitMQ Integration: Connects to RabbitMQ to send X-ray data messages
+- 📊 Sample Data: Includes sample X-ray data in JSON format
+- ⏱ Scheduled Publishing: Automatically sends data at regular intervals
+- 🔧 Configurable: Environment variables for easy configuration
 
 Prerequisites <br>
 Node.js v16+<br>

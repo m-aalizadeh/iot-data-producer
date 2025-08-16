@@ -32,16 +32,3 @@ RABBITMQ_URL=amqp://localhost:5672<br>
 
 Running the Application:<br>
 npm run start:dev<br>
-
-Sample Data Format<br>
-The producer sends data in this format to the xray_queue:<br>
-
-{<br>
-"deviceId": {<br>
-"data": [<br>
-[timestamp, [x_coord, y_coord, speed]],<br>
-...<br>
-],<br>
-"time": overall_timestamp<br>
-}<br>
-}<br>
